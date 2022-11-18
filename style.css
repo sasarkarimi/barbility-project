@@ -1,19 +1,31 @@
 
-*{
- margin: 10px 10px 10px 10px;
- box-sizing: border-box;
-}
+* {margin: 10px 10px 10px 10px;
+    box-sizing: border-box;
+   }
+   
+:root{
+    
+    --primary-color:rgb(24, 22, 22);
+    --secondry-color: rgb(168, 173, 176);
+    --tertiary-color:hsl(212, 39%, 73%);
+  }
+
 
 .header{
- background-color: lightgray;
+ background-color: var(--tertiary-color)
 }
+
+body {
+    background-color: var(--secondry-color);
+}
+
 
 .call-btn{
  font-size: larger;
  cursor: pointer;
  color: white;
-background-color: #45a049;
-margin-left: 42rem;
+background-color: #0b064c;
+margin-left: 33rem;
 margin-top: 2rem;
  }
  
@@ -49,20 +61,25 @@ h1, h3, p{
  width: 350px;
  height: 350px;
 }
+#form-contact{
 
+margin: 0;
+padding:0;
 
+}
 
-
-
-
-
-
-
-
-
-
-
-
+text-pic-section {
+    font-weight: 200;
+    background-image: url("https://www.etc-web.com/wp-content/uploads/contact-us_banner.jpg");
+    position: relative;
+    height: 20em;
+    width: 50em;
+}
+.text-pic-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
 
 
 
@@ -115,7 +132,7 @@ input[type=submit]:hover {
 .social-contact{
  display: inline-block;
 justify-content: center;
-margin-left: 32rem;
+margin-left: 23rem;
 }
 
 
