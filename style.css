@@ -6,7 +6,6 @@
 
 .header{
  background-color: lightgray;
- position: -webkit-sticky;
 }
 
 .call-btn{
@@ -43,6 +42,12 @@ h1, h3, p{
 .hero-card{
  border: 1px solid black;
  margin-top: 5rem;
+ 
+}
+
+.hero-card img{
+ width: 350px;
+ height: 350px;
 }
 
 
@@ -105,10 +110,12 @@ input[type=submit]:hover {
 .footer{
  background-color: lightgray;
  padding: 15px 15px 15px 15px;
-}
-.social-contact{
- display: flex;
-justify-content: center;
-
  
 }
+.social-contact{
+ display: inline-block;
+justify-content: center;
+margin-left: 32rem;
+}
+
+
